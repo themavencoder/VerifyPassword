@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Verfiy Password</string>
+    <string name="create_pin">Create a pin to use in place of password</string>
+    <string name="four_digit_pin">Please enter a 4-digit pin</string>
+    <string name="finish">Finish</string>
+    <string name="newpin">New PIN</string>
 </resources>

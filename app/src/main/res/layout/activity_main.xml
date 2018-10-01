@@ -9,42 +9,42 @@
     <include layout="@layout/toolbar"/>
 
     <TextView
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="@dimen/def_margin_left"
+        android:layout_marginRight="@dimen/def_margin_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:layout_marginTop="26dp"
-        android:layout_marginBottom="4dp"
-        android:text="Setup a security for your app"
-        android:textSize="20sp"
+        android:layout_marginTop="@dimen/def_margin_top"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:text="@string/create_pin"
+        android:textSize="18sp"
         />
     <TextView
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="@dimen/def_margin_left"
+        android:layout_marginRight="@dimen/def_margin_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:layout_marginBottom="14dp"
-        android:text="Please enter a 4-digit pin"
+        android:layout_marginBottom="@dimen/def_margin_bottom"
+        android:text="@string/four_digit_pin"
         android:textSize="12sp"
         />
     <TextView
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="@dimen/def_margin_left"
+        android:layout_marginRight="@dimen/def_margin_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#A5A5A5"
         android:textStyle="bold"
-        android:layout_marginBottom="4dp"
-        android:text="New PIN"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:text="@string/newpin"
         android:textSize="18sp"
         />
 
     <LinearLayout
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="@dimen/def_margin_left"
+        android:layout_marginRight="@dimen/def_margin_left"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
@@ -74,7 +74,7 @@
             android:gravity="center_horizontal"
             android:editable="false"
             android:hint="0"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:inputType="phone"
             android:singleLine="true" />
         <EditText
@@ -86,18 +86,18 @@
             android:imeOptions="actionNext"
             android:editable="false"
             android:hint="0"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:inputType="phone"
             android:singleLine="true" />
         <EditText
             android:maxLength="1"
             android:imeOptions="actionNext"
             android:id="@+id/newpin_four"
-            android:layout_width="40dp"
+            android:layout_width="@dimen/def_layout_width"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:editable="false"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:hint="0"
             android:inputType="phone"
             android:singleLine="true" />
@@ -105,7 +105,7 @@
         <ImageView
             android:id="@+id/positivechecked1"
             android:visibility="invisible"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/positivechecked"/>
@@ -114,20 +114,20 @@
 
     </LinearLayout>
     <TextView
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="@dimen/def_margin_left"
+        android:layout_marginRight="@dimen/def_margin_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#A5A5A5"
         android:textStyle="bold"
         android:layout_marginTop="18dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="@dimen/margin_bottom"
         android:text="Confirm PIN"
         android:textSize="18sp"
         />
     <LinearLayout
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="@dimen/def_margin_left"
+        android:layout_marginRight="@dimen/def_margin_left"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
@@ -137,7 +137,7 @@
 
         <EditText
             android:id="@+id/confirmpin_one"
-            android:layout_width="40dp"
+            android:layout_width="@dimen/def_layout_width"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:editable="false"
@@ -155,7 +155,7 @@
             android:hint="0"
             android:maxLength="1"
             android:imeOptions="actionNext"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:inputType="phone"
             android:singleLine="true" />
         <EditText
@@ -167,7 +167,7 @@
             android:hint="0"
             android:maxLength="1"
             android:imeOptions="actionNext"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:inputType="phone"
             android:singleLine="true" />
         <EditText
@@ -178,7 +178,7 @@
             android:editable="false"
             android:maxLength="1"
             android:imeOptions="actionNext"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:hint="0"
             android:inputType="phone"
             android:singleLine="true" />
@@ -186,7 +186,7 @@
         <ImageView
             android:id="@+id/positivechecked2"
             android:visibility="invisible"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="@dimen/margin_bottom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/positivechecked"/>
@@ -197,13 +197,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="@dimen/def_margin_left"
 
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginRight="@dimen/def_margin_left"
+        android:layout_marginTop="@dimen/def_margin"
         android:id="@+id/btn_choose_pin"
         android:background="@drawable/btn_red"
-        android:text="Finish"
+        android:text="@string/finish"
         android:textAllCaps="false"
         android:textColor="@color/white" />
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="def_margin_bottom">14dp</dimen>
+    <dimen name="def_margin_top">26dp</dimen>
+    <dimen name="def_margin_left">16dp</dimen>
+    <dimen name="def_margin">32dp</dimen>
+    <dimen name="margin_bottom">4dp</dimen>
+    <dimen name="def_layout_width">40dp</dimen>
+
+
+</resources>
